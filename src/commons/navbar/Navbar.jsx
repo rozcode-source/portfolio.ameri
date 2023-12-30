@@ -97,7 +97,7 @@ function Navbar() {
     <li><Link to="contact">Contact</Link></li>*/}
   </ul></div>
   <div className=" download-pdf">
-     <a href="Untitled (5).pdf" download="ai Untitled (5).pdf">
+  <a href="resumeameri.pdf" download="re resumeameri.pdf">
   <button className="btn btnpdf">Download Resume(pdf)</button></a>
   </div>
 
