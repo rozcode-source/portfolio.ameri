@@ -1,0 +1,49 @@
+
+body{
+   background-color: rgb(77, 87, 87);
+
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: black;
+  }
+  p{
+    line-height:1.6;   color: black;
+  }
+.app{
+display: flex;
+flex-direction: column;
+background-color: aqua;
+position: absolute;
+width: 100%;
+
+}
+.sidebar,.maincontent{
+  width: 100%;
+  
+}
+.maincontent{
+background-color: rgb(255, 255, 255);
+
+}
+.sidebar{
+  background-color: rgb(33, 32, 32);
+  background-image: url(./vids/left.png);
+  background-size: cover;
+  color: antiquewhite;
+}
+
+@media screen and (min-width:780px){
+  .app{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 149, 0);
+  min-height: 100vh;
+  
+  }
+  .sidebar,.maincontent{
+    width: 50%;
+  
+  }
+    
+}
+/*vaghti column tebghe padding row mishe contenta */ /*vaghti display to main content ro ro zadim h100vh dadim*/

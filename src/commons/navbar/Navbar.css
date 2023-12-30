@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a,
+Link {
+  text-decoration: none;
+
+}
+
+.btn{
+outline: none;
+border: none;
+background: none;
+border-radius: 5px;
+background-color: rgb(172, 157, 190);
+padding: .5rem .8rem;cursor: pointer;
+transition: .3s ease-in-out;
+transform: scale(1);
+transition: .3s ease-in-out;
+}
+.btn:hover{
+
+  background-color: rgb(149, 126, 178);
+  transform: scale(1.2);
+  }
+section {
+  padding: 2rem;
+  padding-top: 1.5rem;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  }
+  .topbar h3{
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.223);
+  transition: .5s ease-in-out;
+    }
+    .topbar h3:hover{
+   color: rgb(149, 126, 178);cursor: pointer;
+
+        }
+.links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.sumabout{
+  position: relative;
+  padding: 4rem ;
+  padding-top: 5rem;
+    
+}
+.sumabout p{
+font-size: small;
+line-height: 1.2rem;
+
+}
+.name-title{
+    padding-bottom: .5rem;
+}
+.job-title{
+  padding-bottom: .5rem; 
+ 
+}
+.btn-contact{
+position: relative;
+top: 35px;
+}
+
+
+
+   .icon-topbar{
+    
+    font-size:1.5rem;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+      
+  }
+  .icon-topbar:hover{
+
+    font-size:1.5rem;
+    color: rgb(193, 149, 236);
+      
+  }
+ 
+
+.links-container{
+    padding: 4rem;
+}
+.linkNav-hover{
+    margin-left: 1.8rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  
+    
+  }
+
+ 
+.linkNav{
+  font-size: 1.3rem;
+  visibility: visible;
+    }
+  .each-link{
+    color: rgb(139, 139, 183);
+   transition: .3s ease-in-out;
+    }
+   .active{
+color: rgb(29, 4, 36);
+font-size: large;
+   }
+  
+/*pdf*/
+.download-pdf{
+  position: relative;
+  top: 70px;
+  bottom: 0;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+.download-pdf h6{
+  margin-bottom: 1em;
+
+}
+
+
+
+
+@media (max-width: 960px) {
+    
+
+.name-title,.job-title{
+  font-size: .8rem;
+  
+  }
+.sumabout p{
+font-size: .6rem;
+
+}
+.links-container{
+  padding: 1rem;
+}
+.download-pdf{
+cursor: pointer;
+  top: 20px;
+  
+}
+}

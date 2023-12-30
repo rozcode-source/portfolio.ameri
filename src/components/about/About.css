@@ -1,0 +1,59 @@
+.section-aboutpage{
+background-image: url(../../vids/right.png);
+background-size: cover;
+height: 100%;
+}
+article h2{
+   color: #ffffff;
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.229);
+}
+.div-about{
+  padding: 1rem;
+    }
+.div-personal{
+margin-bottom: 1.5rem ;
+}
+.container-info{
+    margin-bottom: .5rem;
+}
+.container-loole{
+    margin-bottom: .8rem;
+}
+.top-skill{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 5px;
+}
+.div-personal h2,.skills h2{
+position: relative;
+margin-bottom: .8rem;
+}
+.loole{
+    width: 100%;
+    height: 7px;
+    border-radius: 10px;
+    background-color: rgba(51, 0, 99, 0.752);
+    position: relative;
+   
+}
+
+.skill__bar-percentage{
+    background: #b08af2cd;
+    height: 7px;
+    position: absolute;
+   z-index: 1000;
+    border-radius: 50px;
+}
+.attention i{
+    color: rgb(128, 43, 152);
+    font-size: 1.5rem;
+    
+}
+.uill{
+   transform: scale(.8);
+}
+.uill:hover{
+  transform: scale(1.2);
+}
+
